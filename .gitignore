@@ -1,0 +1,7 @@
+node_modules/
+.env
+public/loaderio*
+*.swp
+test-*.js
+.vscode
+.idea

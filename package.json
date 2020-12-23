@@ -1,0 +1,45 @@
+{
+  "name": "eving-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec 'ts-node' src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.11.5",
+    "@babel/polyfill": "^7.11.5",
+    "@types/express": "^4.17.8",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.28.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.1",
+    "sequelize": "^6.3.5",
+    "sequelize-cli": "^6.2.0",
+    "sequelize-constants": "^1.0.0",
+    "typescript": "^4.0.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/node": "^7.10.5",
+    "@babel/runtime": "^7.11.2",
+    "@types/cookie-parser": "^1.4.2",
+    "@types/ip": "^1.1.0",
+    "@types/node": "^14.11.1",
+    "babel-jest": "^26.3.0",
+    "cookie-parser": "^1.4.5",
+    "ip": "^1.1.5",
+    "jest": "^26.4.2",
+    "nodemon": "^2.0.4",
+    "ts-node": "^9.0.0"
+  }
+}
